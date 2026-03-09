@@ -1,4 +1,4 @@
-const FRUITS = [
+export const FRUITS = [
   "Apple", "Apricot", "Avocado", "Banana", "Blackberry", "Blueberry", "Boysenberry", "Breadfruit", "Cantaloupe", "Carambola",
   "Cherimoya", "Cherry", "Citron", "Coconut", "Cranberry", "Custard Apple", "Date", "Dragonfruit", "Durian", "Elderberry",
   "Feijoa", "Fig", "Goji Berry", "Gooseberry", "Grape", "Grapefruit", "Guava", "Honeydew", "Huckleberry", "Jackfruit",
@@ -11,4 +11,3 @@ const FRUITS = [
   "Black Currant", "Blood Orange", "Buddha's Hand", "Canistel", "Cashew Apple", "Cloudberry", "Damson Plum", "Gala Apple", "Honeycrisp Apple", "Jostaberry"
 ];
 
-export default FRUITS;

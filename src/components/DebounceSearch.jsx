@@ -22,7 +22,7 @@ function DebounceSearch() {
       <h4>Results (Searching for: "{debouncedSearch}"):</h4>
 
       <ul style={{ maxHeight: '200px', overflowY: 'auto'}}>
-        {filteredFruits.lenght > 0 ? (
+        {filteredFruits.length > 0 ? (
           filteredFruits.map((fruit, index) => (
             <li key={index}>{fruit}</li>
           ))

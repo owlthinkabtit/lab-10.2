@@ -1,11 +1,14 @@
 
 import './App.css'
+import DebounceSearch from './components/DebounceSearch'
+import { PaginationDemo } from './components/PaginationDemo'
 
 function App() {
 
   return (
     <>
-      Hello World
+      <DebounceSearch />
+      <PaginationDemo />
     </>
   )
 }
