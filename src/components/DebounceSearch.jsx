@@ -22,13 +22,17 @@ function DebounceSearch() {
       <h4>Results (Searching for: "{debouncedSearch}"):</h4>
 
       <ul style={{ maxHeight: '200px', overflowY: 'auto'}}>
-        {filteredFruits.length > 0 ? (
-          filteredFruits.map((fruit, index) => (
-            <li key={index}>{fruit}</li>
-          ))
-        ) : (
-          <li>No fruits found!</li>
-        )}
+       {debouncedSearch.length > 0 ? (
+          filteredFruits.length > 0 ? (
+            filteredFruits.map((fruit, index) => (
+              <li key={index}>{fruit}</li>
+            ))
+          ) : (
+            <li>No fruits found!</li>
+          )
+       ) : (
+        <li style={{listStyle: 'none'}}>Type a fruit name to start searching...</li>
+       )}
       </ul>
     </div>
   );
